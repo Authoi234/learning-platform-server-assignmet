@@ -20,14 +20,14 @@
     {
         "id": "4",
         "name" : "React",
-        "about": "React Is Based on JS(Javascript). That is for mordern website. Most of companies use React. This is a full free JS library",
+        "about": "React Is Based on JS(Javascript). That is for mordern website. Most of companies are use React. This is a full free JS library",
         "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
     },
     {
         "id": "5",
         "about": "In some websites you might need to use server by using express and node, you can make your own server.",
         "name" : "node js & express",
-        "img" : "http://localhost:5000/courses"
+        "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffTIKSbgfvNS6OGJ58I81zF_Dno-e52uVR0VR3gfohVm_4xtvWyrheR7fj0U4cF6Mk44&usqp=CAU"
     },
     {
         "id": "6",
