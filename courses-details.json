@@ -10,20 +10,20 @@
         "howWorks": "HTML works by telling the internet browser how to display the page. First, the author uses a basic text editor on the computer (such as TextEdit for Mac) to create their HTML document. The author then fills their HTML document with a series of HTML elements, using HTML tags.",
         "workingImg": "https://simfatic.com/help/v40/images/form-working.jpg",
         "creator": "https://www.heartinternet.uk/blog/wp-content/uploads/timbernerslee.jpg",
-        "helloWorld": "<h1>Hello, world!</h1>"
+        "helloWorld": {"line1": "<h1>", "line2": "Hello, world!", "line3": "</h1>"}
     },
     {
         "id": "2",
         "title": "CSS",
-        "video": "https://www.youtube.com/embed/wRNinF7YQqQ?si=Vsr5fA6Ndk0b8dsc",
+        "video": "https://www.youtube.com/embed/wRNinF7YQqQ?si=1P1MfDWGtCqTSzIM",
         "introductoryDscription": "CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. CSS is designed to make style sheets for the web.",
         "courseBodyDetail": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting. Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device. The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable. The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents. In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL. CSS is also used in the GTK widget toolkit.",
         "codeImg": "https://www.simplilearn.com/ice9/free_resources_article_thumb/css-advance-1.JPG",
-        "history": "CSS was first proposed by Håkon Wium Lie on 10 October 1994. At the time, Lie was working with Tim Berners-Lee at CERN.Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1) being released in 1996. In particular, a proposal by Bert Bos was influential; he became co-author of CSS1, and is regarded as co-creator of CSS.",
+        "history": "CSS was first proposed by Håkon Wium Lie on 10 October 1994. At the time, Lie was working with Tim Berners-Lee at CERN.Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1) being released in 1996. In particular, a proposal by Bert Bos was influential; he became co-author of CSS1, and is regarded as co-creator of CSS. Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web.One requirement for a web style sheet language was for style sheets to come from different sources on the web. Therefore, existing style sheet languages like DSSSL and FOSI were not suitable. CSS, on the other hand, let a document's style be influenced by multiple style sheets by way of 'cascading' styles.As HTML grew, it came to encompass a wider variety of stylistic capabilities to meet the demands of web developers. This evolution gave the designer more control over site appearance, at the cost of more complex HTML. Variations in web browser implementations, such as ViolaWWW and WorldWideWeb,made consistent site appearance difficult, and users had less control over how web content was displayed. The browser/editor developed by Tim Berners-Lee had style sheets that were hard-coded into the program. The style sheets could therefore not be linked to documents on the web.Robert Cailliau, also of CERN, wanted to separate the structure from the presentation so that different style sheets could describe different presentation for printing, screen-based presentations, and editors.",
         "howWorks": "HTML provides the raw tools needed to structure content on a website. CSS, on the other hand, helps to style this content so it appears to the user the way it was intended to be seen. These languages are kept separate to ensure websites are built correctly before they're reformatted.",
         "workingImg": "https://media.geeksforgeeks.org/wp-content/uploads/20211123184711/LoadHTML-660x371.png",
         "creator": "https://i.iinfo.cz/urs/hakon_wium_lie-121043715851298.jpg",
-        "helloWorld": "<h1 style{(any style)}>Hello, world!</h1>"
+        "helloWorld": {"line1": "<h1 style{(any style)}>", "line2": "Hello, world!", "line3": "</h1>"}
     },
     {
         "id": "3",
@@ -36,7 +36,7 @@
         "howWorks": "As we said, JavaScript is a single-threaded programming language. It means that only one command is performed at a time. JavaScript has a blocking and synchronous nature. To put it another way, the code runs in the order it appears, and each section of code must complete running before moving on to the next.",
         "workingImg": "https://miro.medium.com/v2/resize:fit:1400/1*m5M4NV495oH4ADvpnItnVQ.png",
         "creator": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Brendan_Eich_Mozilla_Foundation_official_photo.jpg",
-        "helloWorld": "console.log('Hello World!'); or alert('Hello, World!'); or document.write('Hello, World!');"
+        "helloWorld": {"line1": "console.log('Hello World!'); OR", "line2": "alert('Hello, World!'); OR", "line3": "document.write('Hello, World!');"}
     },
     {
         "id": "4",
@@ -49,7 +49,7 @@
         "howWorks": "React relies on a virtual DOM, which is a copy of the actual DOM. React's virtual DOM is immediately reloaded to reflect this new change whenever there is a change in the data state. After which, React compares the virtual DOM to the actual DOM to figure out what exactly has changed.",
         "workingImg": "https://developer.ibm.com/developer/default/tutorials/wa-react-intro/images/figure1.png",
         "creator": "https://avatars.githubusercontent.com/u/50424412?v=4",
-        "helloWorld": "function App = () => <div> Hello World ! </div>; export default App;"
+        "helloWorld": {"line1": "import React from 'React';", "line2": "function App = () => <div> Hello World ! </div>; ", "line3": "export default App;"}
     },
     {
         "id": "5",
