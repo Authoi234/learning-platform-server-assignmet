@@ -3,6 +3,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 const cors = require('cors')
 const courses = require('./courses.json')
+const courseDetails = require('./courses-details.json')
 
 app.use(cors());
 
@@ -16,7 +17,7 @@ app.get('/courses', (req, res) => {
 
 app.get('/courses/:id', (req, res) => {
   const id = req.params.id;
-  const selectedCourse = courses.find( c => c.id === id);
+  const selectedCourse = courseDetails.find( c => c.id === id);
   res.send(selectedCourse);
 })
 
